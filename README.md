@@ -1,5 +1,5 @@
 # Hospital_Revenue_Analysis-Python
-![Sample Graph](Graphs/sample_graph.png)
+
 ## 1. Project Overview
 The objective of this project is to leverage a simulated Hospital Management Dataset to gain critical insights into its operational efficiency, specifically targeting revenue generation and cost management. This initial phase focuses on understanding the financial landscape of the hospital, identifying key revenue streams, and pinpointing any discrepancies or inefficiencies that could impact profitability. The analysis utilizes various data manipulation, aggregation, and visualization techniques to present a clear picture of the hospital's financial performance.
 
@@ -44,43 +44,52 @@ An initial examination of the `amount` (billing) and `cost` (treatment) distribu
     * Max: 4973.63
     * Mean: 2742.80
     * Std Dev: 1280.62
+ 
+The distributions (as shown in the histograms) reveal the typical range of transactions and highlight any extreme values.
+![Sample Graph](Graphs/amount_cost_analysis.png)
+
   
 ### 4.2. Payment Methods and Statuses
 
 Understanding how payments are made and their current status is vital for revenue collection optimization.
 
-* **Payment Methods:** The payment methods Credit Card **37.9%**, Insurance **31.7%** and Cash **30.3%**, indicating the channels for revenue inflow.
-    [Insert Plot: Count/Proportion of Payment Methods]
-* **Payment Statuses:** A significant proportion of payments were 'Paid' **35%**, but a notable percentage were 'Pending' **31.7%** and 'Failed' **33.2%** . This highlights potential challenges in the collection process that warrant further investigation.
-    [Insert Plot: Count/Proportion of Payment Statuses]
+* **Payment Methods:** The payment methods `Credit Card` **37.9%**, `Insurance` **31.7%** and `Cash` **30.3%**, indicating the channels for revenue inflow.
+    ![Sample Graph](Graphs/payment_method.png)
+  
+* **Payment Statuses:** A significant proportion of payments were `Paid` **35%**, but a notable percentage were `Pending` **31.7%** and `Failed` **33.2%** . This highlights potential challenges in the collection process that warrant further investigation.
+    
+  ![Sample Graph](Graphs/payment_status.png)
 
-### 4.3. Revenue by Gender
+### 4.3. Revenue by Patient Gender
 
 Analysis of total revenue categorized by patient gender are Male **1827242.30** and Female **921047.86**
 
-[Insert Plot: Revenue by Gender]
+### 4.4. Revenue by Doctor Specialization
 
-### 4.4. Revenue by Doctor
+Investigating revenue generation across different doctor specializations helps identify high-value medical services and specialist contributions.
+* `Pediatrics` were identified as the highest revenue-generating specializations. This suggests that the hospital's focus or investment in these areas is yielding significant financial returns.
+
+![Sample Graph](Graphs/revenue_gender_specialization.png)
+
+### 4.5. Revenue by Doctor
 
 Investigating revenue generation across different doctor helps identify high-value medical services and specialist contributions.
-* 'Sarah Taylor', 'Alex Davis', 'David Taylor' were identified as the highest revenue-generating doctors.
+* `Sarah Taylor`, `Alex Davis`, `David Taylor` were identified as the highest revenue-generating doctors.
 
-[Insert Plot: Revenue by Doctors]
-
-### 4.5. Revenue by Treatment Type
+### 4.6. Revenue by Treatment Type
 
 A detailed breakdown of revenue by `treatment_type` provides insights into the profitability and demand for specific services.
-* 'Chemotherapy', 'X-Ray' and 'MRI' have the leading revenue contributon.
+* `Chemotherapy`, `X-Ray` and `MRI` have the leading revenue contributon.
 * Further analysis might be needed for treatment types showing high standard deviation in billing amounts, indicating potential discrepancies in pricing or service complexity (as explored in previous discussions).
 
-[Insert Plot: Revenue by Treatment Type]
+![Sample Graph](Graphs/revenue_treatment_doctor.png)
 
 ## Technologies Used
-**Python**
-**Pandas**
-**NumPy**
-**Matplotlib**
-**Seaborn**
+**Python**, 
+**Pandas**,
+**NumPy**,
+**Matplotlib**,
+**Seaborn**,
 **Jupyter Notebook**
 
 ## Conclusion
