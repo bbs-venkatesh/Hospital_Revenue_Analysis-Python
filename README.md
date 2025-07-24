@@ -84,6 +84,13 @@ A detailed breakdown of revenue by `treatment_type` provides insights into the p
 
 ![Sample Graph](images/revenue_treatment_doctor.png)
 
+## 5. Key Findings
+
+* **Dominant Revenue Streams:** `Pediatrics` is the primary revenue drivers.
+* **Payment Collection Challenges:** A significant portion of payments remain 'Pending' or 'Failed', indicating a need to refine the billing and collection processes.
+* **Balanced Gender Contribution:** "Noticed significant difference in contribution, with male patients generating $1,827,242.30 in revenue, notably higher than the $921,047.86 contributed by female patients. This indicates a substantial imbalance in revenue contribution between genders."
+* **Doctor Performance:** "Top-performing doctors by revenue are identifiable, allowing for performance incentives or resource allocation."
+
 ## Technologies Used
 **Python**, 
 **Pandas**,
