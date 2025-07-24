@@ -1,5 +1,5 @@
 # Hospital_Revenue_Analysis-Python
-
+![Sample Graph](Graphs/sample_graph.png)
 ## 1. Project Overview
 The objective of this project is to leverage a simulated Hospital Management Dataset to gain critical insights into its operational efficiency, specifically targeting revenue generation and cost management. This initial phase focuses on understanding the financial landscape of the hospital, identifying key revenue streams, and pinpointing any discrepancies or inefficiencies that could impact profitability. The analysis utilizes various data manipulation, aggregation, and visualization techniques to present a clear picture of the hospital's financial performance.
 
