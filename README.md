@@ -46,7 +46,7 @@ An initial examination of the `amount` (billing) and `cost` (treatment) distribu
     * Std Dev: 1280.62
  
 The distributions (as shown in the histograms) reveal the typical range of transactions and highlight any extreme values.
-![Sample Graph](Graphs/amount_cost_analysis.png)
+![Sample Graph](images/amount_cost_analysis.png)
 
   
 ### 4.2. Payment Methods and Statuses
@@ -54,11 +54,11 @@ The distributions (as shown in the histograms) reveal the typical range of trans
 Understanding how payments are made and their current status is vital for revenue collection optimization.
 
 * **Payment Methods:** The payment methods `Credit Card` **37.9%**, `Insurance` **31.7%** and `Cash` **30.3%**, indicating the channels for revenue inflow.
-    ![Sample Graph](Graphs/payment_method.png)
+    ![Sample Graph](images/payment_method.png)
   
 * **Payment Statuses:** A significant proportion of payments were `Paid` **35%**, but a notable percentage were `Pending` **31.7%** and `Failed` **33.2%** . This highlights potential challenges in the collection process that warrant further investigation.
     
-  ![Sample Graph](Graphs/payment_status.png)
+  ![Sample Graph](images/payment_status.png)
 
 ### 4.3. Revenue by Patient Gender
 
@@ -69,7 +69,7 @@ Analysis of total revenue categorized by patient gender are Male **1827242.30** 
 Investigating revenue generation across different doctor specializations helps identify high-value medical services and specialist contributions.
 * `Pediatrics` were identified as the highest revenue-generating specializations. This suggests that the hospital's focus or investment in these areas is yielding significant financial returns.
 
-![Sample Graph](Graphs/revenue_gender_specialization.png)
+![Sample Graph](images/revenue_gender_specialization.png)
 
 ### 4.5. Revenue by Doctor
 
@@ -82,7 +82,7 @@ A detailed breakdown of revenue by `treatment_type` provides insights into the p
 * `Chemotherapy`, `X-Ray` and `MRI` have the leading revenue contributon.
 * Further analysis might be needed for treatment types showing high standard deviation in billing amounts, indicating potential discrepancies in pricing or service complexity (as explored in previous discussions).
 
-![Sample Graph](Graphs/revenue_treatment_doctor.png)
+![Sample Graph](images/revenue_treatment_doctor.png)
 
 ## Technologies Used
 **Python**, 
